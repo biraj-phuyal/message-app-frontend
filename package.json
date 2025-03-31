@@ -1,0 +1,34 @@
+{
+  "name": "your-app",
+  "description": "Description",
+  "author": "Your Name",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "prod": "brunch build --production"
+  },
+  "dependencies": {
+    "jquery": "~3.1.1",
+    "underscore": "~1.8.3",
+    "backbone": "~1.3.3",
+    "backbone.marionette": "~3.2.0"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.0.0",
+    "babel-brunch": "~6.0.0",
+    "babel-preset-es2015": "~6.18.0",
+    "brunch": "^2.10.9",
+    "clean-css-brunch": "^2.0.0",
+    "css-brunch": "^2.0.0",
+    "javascript-brunch": "^2.0.0",
+    "sw-precache-brunch": "^1.2.1",
+    "uglify-js-brunch": "^2.0.0",
+    "underscore-brunch": "~1.4.0"
+  },
+  "packageManager": "pnpm@10.6.2+sha512.47870716bea1572b53df34ad8647b42962bc790ce2bf4562ba0f643237d7302a3d6a8ecef9e4bdfc01d23af1969aa90485d4cebb0b9638fa5ef1daef656f6c1b"
+  
+}
